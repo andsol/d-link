@@ -1,0 +1,23 @@
+{
+  "name": "andsol/d-link",
+  "description": "Update lease for D-Link devices",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrey Solonovich",
+      "email": "andrey@solonovich.name"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"Andsol\\": "src/"}
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "geerlingguy/ping": "1.1.*",
+    "ulrichsg/getopt-php": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.4.*"
+  }
+}
